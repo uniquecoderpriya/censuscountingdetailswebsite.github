@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-fluid
+{
+    max-width: 50%;  
+    height: auto; 
+    align-items: center; 
+}
+
+.hi{
+    margin-left: 40%;
+    margin-right: 50%;
+    position: relative;
+    max-width: 1250px ;
+    text-align: center;
+    background-size: cover;
+    
+ }
+.ji{
+    
+    
+    background: linear-gradient(to top left, #99eadd,#766094);
+    text-align: center;
+}
+.op{
+    text-align: center;
+    background: linear-gradient(to top left, #a8a631,#b2607e);
+    background-size:cover ;
+    position: relative;
+}
+.io{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-right: 12%;
+    margin-left: 5%;
+    position: relative;
+    background-size:cover ;
+}
+.yi{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    position: relative;
+    background-size:cover ;
+}
+.pl{
+    text-align: right;
+    size: 20px;
+    position: relative;
+    background-size:cover ;
+
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+    <div class="comtainer-fluid">
+        <div class="col-md-10 col-12mx">
+
+            <p class="hi">
+                <img src="orgi-logo-4.png" class="img-fluid" alt="Responsive image">
+            </p>
+            <div class="outer-box">
+                <div class="inner-box">
+                    <header class="details">
+                        <h1>DETAILS FORM</h1>
+                        <p>* Mandatory to fill correctly *</p>
+                    </header>
+                    <main class="details-body">
+                        <form id="product_form" name="google-sheet">
+                            <h1>Head Member</h1>
+                            <p>
+                                <label for="firstname">First Name</label>
+                                <input type="text" id="firstname" name="Firstname" placeholder="Priya" required>
+                            </p>
+                            <p>
+                                <label for="lastname">Last Name</label>
+                                <input type="text" id="lastname" name="Lastname" placeholder="Ray" required>
+                            </p>
+                            <p>
+                                <label for="age">Age</label>
+                                <input type="number" id="age" name="Age" placeholder="25" required>
+                            </p>
+                            <p>Gender</p>
+                            <p>
+                                <label for="gender-male">Male</label>
+                                <input type="radio" name="Gender" value="Male">
+                                <label for="gender-female">Female</label>
+                                <input type="radio" name="Gender" value="Female">
+                                <label for="gender-other">Other</label>
+                                <input type="radio" name="Gender" value="Other">
+                            </p>
+
+                            <p>
+                                <label for="fathername">Father's Name</label>
+                                <input type="text" id="fathername" name="Fathername" placeholder="anup ray" required>
+                            </p>
+                            <p>
+                                <label for="mothername">Mother's Name</label>
+                                <input type="text" id="mothername" name="Mothername" placeholder="lipika" required>
+                            </p>
+
+                            <p>
+                                <label for="Aadharno">Your Aadhar Number</label>
+                                <input type="number" id="Aadharno1" name="Aadhar" placeholder="1234 1236 1235" required>
+                            </p>
+                            <p>
+                                <label for="highereducation">Higher Education</label>
+                                <input type="text" id="highereducation1" name="Highereducation"
+                                    placeholder="10th,12th,bca,btech,.." required>
+                            </p>
+                            <p>
+                                <label for="Occupation">Occupation</label>
+                                <input type="text" id="occupation" name="Occupation"
+                                    placeholder="business man , police,.." required>
+                            </p>
+                            <select id="religion1" name="Religion">
+                                <option value="">Religion</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="muslim">Muslim</option>
+                                <option value="christan">Christianity</option>
+                                <option value="buddhism">Buddhism</option>
+                                <option value="sikh">Sikhism</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <p>
+                                <select id="caste1" name="Caste">
+                                    <option value="">Caste</option>
+                                    <option value="brahman">Brahman</option>
+                                    <option value="kshatriya">Kshatriya</option>
+                                    <option value="Vaishya">Vaishya</option>
+                                    <option value="Harijans">Harijans</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                            <select id="martialstatus" name="Martialstatus">
+                                <option value="">Martial status</option>
+                                <option value="Single">Single</option>
+                                <option value="Married">Married</option>
+                                <option value="Widow">Widow</option>
+                                <option value="Divorced">Divorced</option>
+                            </select>
+                            <p>
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="State" placeholder="Bihar" required>
+                            </p>
+                            <p>
+                                <label for="district">District</label>
+                                <input type="text" id="district" name="District" placeholder="katihar" required>
+                            </p>
+                            <p>
+                                <label for="pinno">Pin No</label>
+                                <input type="number" id="pinno" name="Pinno" placeholder="854105" required>
+                            </p>
+                            <p>
+                                <label for="wardno">Ward No</label>
+                                <input type="number" id="wardno" name="Wardno" placeholder="30" required>
+                            </p>
+                            <p>
+                                <label for="vehicle">Vehicle</label>
+                                <input type="text" id="vehicle1" name="Vehicle"
+                                    placeholder="2wheeler, 4 wheeler,tractor , none,..." required>
+                            </p>
+                            <p>
+                                <label for="Annualincome">Annual Income</label>
+                                <input type="number" id="Annualincome1" name="Annualincome"
+                                    placeholder="100000,50000,..." required>
+                            </p>
+                            <p>
+                                <label for="residentialstatus">Residential Status</label>
+                                <input type="text" id="residentialstatus" name="Residential" required>
+                            </p>
+
+
+
+
+
+
+                            <h1>Family Member</h1>
+                            <p>
+                                <label for="wife name/husband name">Wife Name / Husband Name </label>
+                                <input type="text" id="wife name/husband name" name="Name"
+                                    placeholder="priya singh / saurav singh " required>
+                            </p>
+                            <p>
+                                <label for="age">Age</label>
+                                <input type="number" id="age" name="Age" placeholder="25" required>
+                            </p>
+                            <p>
+                                <label for="Aadharno">Aadhar Number</label>
+                                <input type="number" id="Aadharno2" name="Adhar" placeholder="1234 1236 1235" required>
+                            </p>
+                            <select id="martialstatus" name="Martialstatus">
+                                <option value="">Martial status</option>
+                                <option value="Single">Single</option>
+                                <option value="Married">Married</option>
+                                <option value="Widow">Widow</option>
+                                <option value="Divorced">Divorced</option>
+                            </select>
+                            <p>
+                                <label for="highereducation">Higher Education</label>
+                                <input type="text" id="highereducation1" name="Highereducation"
+                                    placeholder="10th,12th,bca,btech,.." required>
+                            </p>
+                            <p>
+                                <label for="Occupation">Occupation</label>
+                                <input type="text" id="occupation" name="Occupation"
+                                    placeholder="business woman , police, housewife,..." required>
+                            </p>
+                            <p>
+                                <select id="religion" name="Religion">
+                                    <option value="">Religion</option>
+                                    <option value="hindu">Hindu</option>
+                                    <option value="muslim">Muslim</option>
+                                    <option value="christan">Christianity</option>
+                                    <option value="buddhism">Buddhism</option>
+                                    <option value="sikh">Sikhism</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            <p>
+                                <select id="caste" name="Caste">
+                                    <option value="">Caste</option>
+                                    <option value="brahman">Brahman</option>
+                                    <option value="kshatriya">Kshatriya</option>
+                                    <option value="Vaishya">Vaishya</option>
+                                    <option value="Harijans">Harijans</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="vehicle">Vehicle</label>
+                                <input type="text" id="vehicle1" name="Vehicle"
+                                    placeholder="2wheeler, 4 wheeler,tractor , none,..." required>
+                            </p>
+                            <p>
+                                <label for="Annualincome">Annual Income</label>
+                                <input type="number" id="Annualincome1" name="Annualincome"
+                                    placeholder="100000,50000,..." required>
+                            </p>
+
+
+
+                            <p>
+                            <h1>child details</h1>
+
+                            <p id="row">
+                            <p>
+                                <label for="childname">Child Name</label>
+                                <input type="text" id="childname" name="Childname" placeholder="Priya" required>
+                            </p>
+                            <p>
+                                <label for="age">Age</label>
+                                <input type="number" id="age" name="Age" placeholder="25" required>
+                            </p>
+
+                            <p>
+                                <label for="gender-male">Male</label>
+                                <input type="radio" name="gender-choice1" value="choice-1">
+                                <label for="gender-female">Female</label>
+                                <input type="radio" name="gender-choice1" value="choice-2">
+                                <label for="gender-other">Other</label>
+                                <input type="radio" name="gender-choice1" value="choice-3">
+                            </p>
+                            <p>
+                                <label for="Aadharno">Aadhar Number</label>
+                                <input type="number" name="Aadhar" id="Aadharno" placeholder="1234 1236 1235">
+                            </p>
+                            <p>
+                                <label for="highereducation">Higher Education</label>
+                                <input type="text" id="highereducation" name="Highereducation"
+                                    placeholder="10th,12th,bca,btech,.." required>
+                            </p>
+                            <p>
+                                <label for="Occupation">Occupation / Student </label>
+                                <input type="text" id="occupation" name="occupation"
+                                    placeholder=" student,business woman , police, housewife,..." required>
+                            </p>
+                            <p>
+                                <select id="religion" name="Religion">
+                                    <option value="">Religion</option>
+                                    <option value="hindu">Hindu</option>
+                                    <option value="muslim">Muslim</option>
+                                    <option value="christan">Christianity</option>
+                                    <option value="buddhism">Buddhism</option>
+                                    <option value="sikh">Sikhism</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                            <p>
+                                <select id="caste" name="">
+                                    <option value="">Caste</option>
+                                    <option value="brahman">Brahman</option>
+                                    <option value="kshatriya">Kshatriya</option>
+                                    <option value="Vaishya">Vaishya</option>
+                                    <option value="Harijans">Harijans</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                            <p>
+                                <select id="martialstatus" name="">
+                                    <option value="">Martial status</option>
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Widow">Widow</option>
+                                    <option value="Divoorced">Divororced</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="vehicle">Vehicle</label>
+                                <input type="text" id="vehicle" name=""
+                                    placeholder="2wheeler, 4 wheeler ,tractor, none,..." required>
+                            </p>
+                            <p>
+                                <label for="Annualincome">Annual Income</label>
+                                <input type="number" id="Annualincome" name="" placeholder="100000,50000,..." required>
+                            </p>
+
+
+
+
+
+                            </p>
+                            </p>
+
+
+                        </form>
+                        <p>
+                            <button onclick="add_more_field()">+ Add More </button>
+                            <a href="next.html">
+                                <input type="submit" id="submit" value="Next" >
+                            </a>
+                        </p>
+
+                        <script src="script.js"></script>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7UcFeCqGXANavS4TV9GlPeLcImbJWC2pPSEZ49hrO1C4vyy72ehvoo1Uzi3zOAbn43g/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault()
+            submitionForm()
+        })
+
+        function submitionForm(e) {
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    console.log("reached here")
+                    alert("Thanks for Register us..! successfully save your data...")
+                    location.href = "/next.html"
+                })
+                .catch(error => console.error('Error!', error.message))
+
+        }
+
+    </script>
+
+</body>
+
+</html>
